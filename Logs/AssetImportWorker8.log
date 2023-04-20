@@ -1,0 +1,1367 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.15f1 (30d813e1a2a9) revision 3201043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pt' Physical Memory: 8064 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/jgabr/MagiTest
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+57508
+Successfully changed project path to: C:/Users/jgabr/MagiTest
+C:/Users/jgabr/MagiTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33628] Host "[IP] 192.168.0.56 [Port] 0 [Flags] 2 [Guid] 3750178593 [EditorId] 3750178593 [Version] 1048832 [Id] WindowsEditor(7,JGabriel047) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [33628] Host "[IP] 192.168.0.56 [Port] 0 [Flags] 2 [Guid] 3750178593 [EditorId] 3750178593 [Version] 1048832 [Id] WindowsEditor(7,JGabriel047) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 2305.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jgabr/MagiTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.3161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.019153 seconds.
+- Loaded All Assemblies, in  0.583 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.382 seconds
+Domain Reload Profiling:
+	ReloadAssembly (367ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+				TypeCache.Initialize (202ms)
+					TypeCache.ScanAssembly (200ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.542 seconds
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.475 seconds
+Domain Reload Profiling:
+	ReloadAssembly (333ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		LoadAllAssembliesAndSetupDomain (1203ms)
+			LoadAssemblies (756ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (555ms)
+				TypeCache.Initialize (503ms)
+					TypeCache.ScanAssembly (497ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (1011ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 15.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 122 unused Assets / (3.2 MB). Loaded Objects now: 6362.
+Memory consumption went from 243.5 MB to 240.3 MB.
+Total: 6.430000 ms (FindLiveObjects: 0.514200 ms CreateObjectMapping: 0.293500 ms MarkObjects: 4.700600 ms  DeleteObjects: 0.920300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.223 seconds
+Refreshing native plugins compatible for Editor in 55.87 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (332ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		LoadAllAssembliesAndSetupDomain (885ms)
+			LoadAssemblies (482ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+				TypeCache.Initialize (477ms)
+					TypeCache.ScanAssembly (466ms)
+				ResolveRequiredComponents (15ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (933ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5731 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6386.
+Memory consumption went from 204.5 MB to 201.3 MB.
+Total: 8.112300 ms (FindLiveObjects: 0.621100 ms CreateObjectMapping: 0.454300 ms MarkObjects: 6.028000 ms  DeleteObjects: 1.007200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 68.320 seconds
+Refreshing native plugins compatible for Editor in 78.73 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 36.974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (24869ms)
+		BeginReloadAssembly (24346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (1192ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (40ms)
+			CreateAndSetChildDomain (15549ms)
+		LoadAllAssembliesAndSetupDomain (43512ms)
+			LoadAssemblies (29412ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (15069ms)
+				TypeCache.Initialize (14394ms)
+					TypeCache.ScanAssembly (12032ms)
+				ResolveRequiredComponents (163ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (5394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (128ms)
+				SetLoadedEditorAssemblies (20ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (365ms)
+				ProcessInitializeOnLoadAttributes (4497ms)
+				ProcessInitializeOnLoadMethodAttributes (349ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (20ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 7.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6402.
+Memory consumption went from 203.9 MB to 200.7 MB.
+Total: 384.212800 ms (FindLiveObjects: 0.765200 ms CreateObjectMapping: 0.601200 ms MarkObjects: 321.352000 ms  DeleteObjects: 61.491700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182546.277082 seconds.
+  path: Assets/Script/UI/Dialogue/NPCInteraction.cs
+  artifactKey: Guid(064829a31f532084ea9070e18f0584be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI/Dialogue/NPCInteraction.cs using Guid(064829a31f532084ea9070e18f0584be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6837e3747f9964b22b7f63f89220433e') in 0.567114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 11.035 seconds
+Refreshing native plugins compatible for Editor in 7.11 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.547 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1259ms)
+		BeginReloadAssembly (938ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (635ms)
+		LoadAllAssembliesAndSetupDomain (9770ms)
+			LoadAssemblies (8383ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1568ms)
+				TypeCache.Initialize (1285ms)
+					TypeCache.ScanAssembly (1276ms)
+				ResolveRequiredComponents (258ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1062ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (847ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5722 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6417.
+Memory consumption went from 203.7 MB to 200.5 MB.
+Total: 17.099100 ms (FindLiveObjects: 0.687800 ms CreateObjectMapping: 0.335800 ms MarkObjects: 14.680100 ms  DeleteObjects: 1.394300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 22.847 seconds
+Refreshing native plugins compatible for Editor in 7.45 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.136 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11269ms)
+		BeginReloadAssembly (11022ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (326ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (6849ms)
+		LoadAllAssembliesAndSetupDomain (11573ms)
+			LoadAssemblies (11255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1461ms)
+				TypeCache.Initialize (1344ms)
+					TypeCache.ScanAssembly (1220ms)
+				ResolveRequiredComponents (17ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1163ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (867ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6432.
+Memory consumption went from 204.0 MB to 200.8 MB.
+Total: 150.776200 ms (FindLiveObjects: 0.530600 ms CreateObjectMapping: 0.314900 ms MarkObjects: 109.224700 ms  DeleteObjects: 40.703600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.753 seconds
+Refreshing native plugins compatible for Editor in 7.68 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (420ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		LoadAllAssembliesAndSetupDomain (1327ms)
+			LoadAssemblies (489ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (922ms)
+				TypeCache.Initialize (901ms)
+					TypeCache.ScanAssembly (891ms)
+				ResolveRequiredComponents (21ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (929ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6447.
+Memory consumption went from 204.0 MB to 200.8 MB.
+Total: 6.132800 ms (FindLiveObjects: 0.589700 ms CreateObjectMapping: 0.354800 ms MarkObjects: 4.338500 ms  DeleteObjects: 0.848500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.167 seconds
+Refreshing native plugins compatible for Editor in 6.82 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.377 seconds
+Domain Reload Profiling:
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (738ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		LoadAllAssembliesAndSetupDomain (1264ms)
+			LoadAssemblies (735ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (900ms)
+				TypeCache.Initialize (884ms)
+					TypeCache.ScanAssembly (865ms)
+				ResolveRequiredComponents (16ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1147ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (933ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6462.
+Memory consumption went from 204.0 MB to 200.8 MB.
+Total: 6.799500 ms (FindLiveObjects: 0.707200 ms CreateObjectMapping: 0.423900 ms MarkObjects: 4.713800 ms  DeleteObjects: 0.953000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 14.466 seconds
+Refreshing native plugins compatible for Editor in 7.26 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6201ms)
+		BeginReloadAssembly (5994ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (256ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (38ms)
+			CreateAndSetChildDomain (3587ms)
+		LoadAllAssembliesAndSetupDomain (8257ms)
+			LoadAssemblies (6701ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2496ms)
+				TypeCache.Initialize (2231ms)
+					TypeCache.ScanAssembly (1776ms)
+				ResolveRequiredComponents (73ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (2531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (56ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (2069ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6477.
+Memory consumption went from 204.1 MB to 200.9 MB.
+Total: 43.101500 ms (FindLiveObjects: 0.627300 ms CreateObjectMapping: 0.326400 ms MarkObjects: 39.100300 ms  DeleteObjects: 3.045600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.215 seconds
+Refreshing native plugins compatible for Editor in 6.86 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (922ms)
+		BeginReloadAssembly (817ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (82ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (190ms)
+		LoadAllAssembliesAndSetupDomain (1287ms)
+			LoadAssemblies (553ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (850ms)
+				TypeCache.Initialize (745ms)
+					TypeCache.ScanAssembly (737ms)
+				ResolveRequiredComponents (104ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (2107ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (280ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (425ms)
+				ProcessInitializeOnLoadAttributes (1291ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 9.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6492.
+Memory consumption went from 204.1 MB to 200.9 MB.
+Total: 7.428200 ms (FindLiveObjects: 0.517700 ms CreateObjectMapping: 0.302500 ms MarkObjects: 5.288100 ms  DeleteObjects: 1.318400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.105 seconds
+Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1797ms)
+		BeginReloadAssembly (1159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (188ms)
+		LoadAllAssembliesAndSetupDomain (1302ms)
+			LoadAssemblies (1428ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (686ms)
+				TypeCache.Initialize (663ms)
+					TypeCache.ScanAssembly (654ms)
+				ResolveRequiredComponents (15ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (1087ms)
+				ProcessInitializeOnLoadMethodAttributes (145ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 111.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6507.
+Memory consumption went from 204.1 MB to 200.9 MB.
+Total: 6.172100 ms (FindLiveObjects: 0.561800 ms CreateObjectMapping: 0.337800 ms MarkObjects: 4.377400 ms  DeleteObjects: 0.893200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  6.195 seconds
+Refreshing native plugins compatible for Editor in 8.12 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (774ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (531ms)
+		LoadAllAssembliesAndSetupDomain (5286ms)
+			LoadAssemblies (4913ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+				TypeCache.Initialize (447ms)
+					TypeCache.ScanAssembly (438ms)
+				ResolveRequiredComponents (15ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1834ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (1553ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 6.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6522.
+Memory consumption went from 204.1 MB to 200.9 MB.
+Total: 9.563200 ms (FindLiveObjects: 0.538300 ms CreateObjectMapping: 0.295600 ms MarkObjects: 7.826000 ms  DeleteObjects: 0.901500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.370 seconds
+Refreshing native plugins compatible for Editor in 6.86 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (534ms)
+		BeginReloadAssembly (336ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		LoadAllAssembliesAndSetupDomain (830ms)
+			LoadAssemblies (525ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+				TypeCache.Initialize (446ms)
+					TypeCache.ScanAssembly (436ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (986ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (765ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 7.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6537.
+Memory consumption went from 204.1 MB to 200.9 MB.
+Total: 7.874800 ms (FindLiveObjects: 0.716400 ms CreateObjectMapping: 0.552400 ms MarkObjects: 4.775700 ms  DeleteObjects: 1.828600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3250.297133 seconds.
+  path: Assets/Prefab/Environment/Lamp_3.prefab
+  artifactKey: Guid(279aeced71db9474c96f95e8f79b60a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/Lamp_3.prefab using Guid(279aeced71db9474c96f95e8f79b60a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a85820a31147ad31f5328d2c44b809') in 9.675999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.390 seconds
+Refreshing native plugins compatible for Editor in 8.95 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.483 seconds
+Domain Reload Profiling:
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (490ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		LoadAllAssembliesAndSetupDomain (1714ms)
+			LoadAssemblies (1095ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (807ms)
+				TypeCache.Initialize (785ms)
+					TypeCache.ScanAssembly (773ms)
+				ResolveRequiredComponents (22ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (1042ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 7.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5722 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6560.
+Memory consumption went from 208.2 MB to 205.0 MB.
+Total: 23.096700 ms (FindLiveObjects: 0.856900 ms CreateObjectMapping: 0.546500 ms MarkObjects: 19.517100 ms  DeleteObjects: 2.173700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.308 seconds
+Refreshing native plugins compatible for Editor in 6.77 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.412 seconds
+Domain Reload Profiling:
+	ReloadAssembly (753ms)
+		BeginReloadAssembly (643ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		LoadAllAssembliesAndSetupDomain (2549ms)
+			LoadAssemblies (784ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1921ms)
+				TypeCache.Initialize (1899ms)
+					TypeCache.ScanAssembly (1888ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (3068ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (757ms)
+				ProcessInitializeOnLoadAttributes (1933ms)
+				ProcessInitializeOnLoadMethodAttributes (350ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6575.
+Memory consumption went from 208.5 MB to 205.3 MB.
+Total: 20.287400 ms (FindLiveObjects: 0.777100 ms CreateObjectMapping: 0.700300 ms MarkObjects: 17.841500 ms  DeleteObjects: 0.966700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.443 seconds
+Refreshing native plugins compatible for Editor in 7.53 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.708 seconds
+Domain Reload Profiling:
+	ReloadAssembly (418ms)
+		BeginReloadAssembly (299ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (137ms)
+		LoadAllAssembliesAndSetupDomain (2019ms)
+			LoadAssemblies (591ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1489ms)
+				TypeCache.Initialize (1427ms)
+					TypeCache.ScanAssembly (1411ms)
+				ResolveRequiredComponents (62ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (926ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 7.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6590.
+Memory consumption went from 208.5 MB to 205.3 MB.
+Total: 9.791700 ms (FindLiveObjects: 0.903700 ms CreateObjectMapping: 0.363000 ms MarkObjects: 6.970400 ms  DeleteObjects: 1.552900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.684 seconds
+Refreshing native plugins compatible for Editor in 6.86 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.677 seconds
+Domain Reload Profiling:
+	ReloadAssembly (695ms)
+		BeginReloadAssembly (473ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		LoadAllAssembliesAndSetupDomain (1983ms)
+			LoadAssemblies (1326ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (844ms)
+				TypeCache.Initialize (830ms)
+					TypeCache.ScanAssembly (820ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (933ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 10.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6605.
+Memory consumption went from 208.5 MB to 205.3 MB.
+Total: 8.720600 ms (FindLiveObjects: 1.040300 ms CreateObjectMapping: 0.630600 ms MarkObjects: 6.076000 ms  DeleteObjects: 0.972300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jgabr\MagiTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.739 seconds
+Refreshing native plugins compatible for Editor in 7.37 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.339 seconds
+Domain Reload Profiling:
+	ReloadAssembly (373ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		LoadAllAssembliesAndSetupDomain (1359ms)
+			LoadAssemblies (529ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (957ms)
+				TypeCache.Initialize (942ms)
+					TypeCache.ScanAssembly (921ms)
+				ResolveRequiredComponents (15ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (949ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 8.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (3.2 MB). Loaded Objects now: 6620.
+Memory consumption went from 208.5 MB to 205.3 MB.
+Total: 9.191200 ms (FindLiveObjects: 0.670400 ms CreateObjectMapping: 0.331500 ms MarkObjects: 5.910300 ms  DeleteObjects: 2.277300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DAS_Option.cs: 172bf23f1950b16d4d45d907eab18c2a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PlayAnimation.cs: e42e49cca17b953a9ee675718f28bd5c -> 
+  custom:scripting/monoscript/fileName/UIControler.cs: c295be4f0016117a148c7df960b26302 -> 971499c3908034cb37a30d0d3084220d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DAS_Dialogue.cs: 4757d2ae9075e072599e6805f21807de -> 
+  custom:scripting/monoscript/fileName/DAS_Action.cs: b42b8d5a49baa2874a85757ced533173 -> 
+  custom:scripting/monoscript/fileName/DayNight.cs: 6161a168b97f28d9aeb66bfb731cc715 -> eb1bb1ed9672239e117138d38ca5c1e5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SkyBoxController.cs: 2b98f040b2656fca7adc07c8648276a4 -> 65276038e8a100683817dc314676d4ad
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 2dcb33d5ca63a35e90533ce3223d831c -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueBox.cs: 925c70c79763d78c4b6aa63ba4f9d0ea -> 
+  custom:scripting/monoscript/fileName/DAS_DialogueController.cs: 2db630b04fe67fd0462dcdf68945a4b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ClickScript.cs: 6acfa297efe1977f77460cfd4f2ee135 -> 
+  custom:scripting/monoscript/fileName/LightController.cs: f3ecf2b1e47fe46a1b52665f04870c2b -> 0209ccbc01f0a5294b2200660212ee3d
+  custom:scripting/monoscript/fileName/DAS_DialogueSystem.cs: d25bf798e39dc568375de0f369b4a11c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

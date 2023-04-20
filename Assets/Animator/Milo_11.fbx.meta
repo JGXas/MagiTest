@@ -1,0 +1,781 @@
+fileFormatVersion: 2
+guid: 0edb6c9d114700149b08274acb9569e6
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature.001|caminhar.001
+      takeName: Armature.001|caminhar.001
+      internalID: 2075084354775988658
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Barriga
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Perna L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Perna R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Canela L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Canela R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Calcanhar L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Calcanhar R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Peito
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "Pesco\xE7o"
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "Cabe\xE7a"
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ombro L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ombro R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Biceps L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Biceps R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "Bra\xE7o L"
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "Bra\xE7o R"
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "M\xE3o L"
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "M\xE3o R"
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "P\xE9 L"
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "P\xE9 R"
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Polegar 1/2 L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Polegar 2/2 L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador 1/3 L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador 2/3 L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador 3/3 L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Meio 1/3 L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Meio 2/3 L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Meio 3/3 L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Anelar 1/3 L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Anelar 2/3 L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Anelar 3/3 L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mindinho 1/3 L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mindinho 2/3 L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mindinho 3/3 L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Polegar 1/2 R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Polegar 2/2 R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador 1/3 R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador 2/3 R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador 3/3 R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Meio 1/3 R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Meio 2/3 R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Meio 3/3 R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Anelar 1/3 R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Anelar 2/3 R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Anelar 3/3 R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mindinho 1/3 R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mindinho 2/3 R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mindinho 3/3 R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Milo_11(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.001
+      parentName: Milo_11(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Barriga
+      parentName: Armature.001
+      position: {x: 0.000001616776, y: 0.0010213124, z: 0.01734267}
+      rotation: {x: 0.7013926, y: -0.00000008496947, z: -0.00000008361256, w: 0.7127752}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Peito
+      parentName: Barriga
+      position: {x: -2.708056e-14, y: 0.0042713466, z: 7.4120335e-11}
+      rotation: {x: 0.048855156, y: 9.947598e-14, z: -0.000000011647973, w: 0.9988059}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Ombro L
+      parentName: Peito
+      position: {x: -0.00041729547, y: 0.004708335, z: 0.00066832907}
+      rotation: {x: -0.16071174, y: -0.018425558, z: 0.77037656, w: 0.6167271}
+      scale: {x: 0.9499044, y: 0.8404579, z: 0.9526459}
+    - name: Biceps L
+      parentName: Ombro L
+      position: {x: 0.0000000053737312, y: 0.0022993018, z: -4.0978193e-10}
+      rotation: {x: 0.12808163, y: -0.07675872, z: -0.120561175, w: 0.9814114}
+      scale: {x: 0.9359148, y: 0.95391405, z: 0.9391448}
+    - name: "Bra\xE7o L"
+      parentName: Biceps L
+      position: {x: 2.2351741e-10, y: 0.00548233, z: -6.705522e-10}
+      rotation: {x: 0.013186944, y: 0.0028768473, z: 0.044931028, w: 0.998899}
+      scale: {x: 1.021851, y: 0.97972256, z: 1.0006258}
+    - name: "M\xE3o L"
+      parentName: "Bra\xE7o L"
+      position: {x: -2.6077032e-10, y: 0.0043528685, z: -0.0000000010617077}
+      rotation: {x: -0.049923982, y: -0.0035222294, z: -0.02325981, w: 0.99847597}
+      scale: {x: 0.99649936, y: 1.004599, z: 0.9987354}
+    - name: Anelar 1/3 L
+      parentName: "M\xE3o L"
+      position: {x: -0.00007655285, y: 0.0021536695, z: -0.00020852708}
+      rotation: {x: 0.052801155, y: 0.098387234, z: 0.05682403, w: 0.99212044}
+      scale: {x: 1.0794926, y: 0.9524183, z: 0.9775557}
+    - name: Anelar 2/3 L
+      parentName: Anelar 1/3 L
+      position: {x: 0.0000000010058283, y: 0.00065020245, z: -0.0000000017136335}
+      rotation: {x: -0.0026973584, y: -0.0014563868, z: 0.011074688, w: 0.999934}
+      scale: {x: 0.9869036, y: 1.0121325, z: 1.001161}
+    - name: Anelar 3/3 L
+      parentName: Anelar 2/3 L
+      position: {x: 4.4703483e-10, y: 0.0006438552, z: 0.0000000016391277}
+      rotation: {x: -0.07378679, y: 0.03974943, z: 0.24088238, w: 0.9669288}
+      scale: {x: 0.97808707, y: 1.0197353, z: 1.0026108}
+    - name: Indicador 1/3 L
+      parentName: "M\xE3o L"
+      position: {x: -0.0003480407, y: 0.0019706213, z: 0.00061795925}
+      rotation: {x: 0.061814103, y: -0.34124038, z: 0.025708638, w: 0.937589}
+      scale: {x: 0.9718762, y: 0.9454947, z: 1.0901164}
+    - name: Indicador 2/3 L
+      parentName: Indicador 1/3 L
+      position: {x: -5.9604643e-10, y: 0.0006283136, z: -8.9406965e-10}
+      rotation: {x: 0.009041679, y: -0.0037185834, z: 0.016142309, w: 0.99982196}
+      scale: {x: 0.990284, y: 1.0224682, z: 0.988462}
+    - name: Indicador 3/3 L
+      parentName: Indicador 2/3 L
+      position: {x: 5.9604643e-10, y: 0.0006334704, z: 0.0000000010430813}
+      rotation: {x: -0.031803265, y: 0.031185223, z: -0.022857286, w: 0.9987461}
+      scale: {x: 1.0130198, y: 0.99099386, z: 0.9963463}
+    - name: Meio 1/3 L
+      parentName: "M\xE3o L"
+      position: {x: -0.00006431364, y: 0.0020874674, z: 0.00015379032}
+      rotation: {x: 0.055543117, y: 0.034139313, z: 0.051128935, w: 0.99656177}
+      scale: {x: 1.0629114, y: 0.95188504, z: 0.9919326}
+    - name: Meio 2/3 L
+      parentName: Meio 1/3 L
+      position: {x: 1.4901161e-10, y: 0.0006400327, z: -2.7939676e-10}
+      rotation: {x: -0.00021372728, y: -0.001708004, z: 0.012677561, w: 0.9999182}
+      scale: {x: 0.9843939, y: 1.0148492, z: 1.0010182}
+    - name: Meio 3/3 L
+      parentName: Meio 2/3 L
+      position: {x: -5.9604643e-10, y: 0.00063740846, z: 2.4214386e-10}
+      rotation: {x: -0.054890867, y: 0.0825523, z: 0.056463912, w: 0.99347067}
+      scale: {x: 1.0086434, y: 1.0026431, z: 0.98924863}
+    - name: Mindinho 1/3 L
+      parentName: "M\xE3o L"
+      position: {x: -0.00027144066, y: 0.0019943553, z: -0.00063410494}
+      rotation: {x: 0.039525665, y: 0.25102788, z: 0.06147386, w: 0.96521693}
+      scale: {x: 1.1055119, y: 0.9489957, z: 0.95842147}
+    - name: Mindinho 2/3 L
+      parentName: Mindinho 1/3 L
+      position: {x: 3.7252902e-11, y: 0.00055226876, z: 2.9802322e-10}
+      rotation: {x: -0.007885391, y: -0.0030124628, z: 0.0038802512, w: 0.99995685}
+      scale: {x: 0.98336154, y: 1.0194775, z: 0.99808025}
+    - name: Mindinho 3/3 L
+      parentName: Mindinho 2/3 L
+      position: {x: -3.352761e-10, y: 0.0005525568, z: -4.4703483e-10}
+      rotation: {x: 0.01006918, y: 0.05743752, z: 0.17868581, w: 0.98217666}
+      scale: {x: 0.97026336, y: 1.0236365, z: 1.0073677}
+    - name: Polegar 1/2 L
+      parentName: "M\xE3o L"
+      position: {x: -0.00048763535, y: 0.00082856795, z: 0.000727019}
+      rotation: {x: 0.38318032, y: -0.07789626, z: 0.031381506, w: 0.91984797}
+      scale: {x: 0.9860358, y: 0.9733539, z: 1.041525}
+    - name: Polegar 2/2 L
+      parentName: Polegar 1/2 L
+      position: {x: -0.0000000011920929, y: 0.0007664722, z: 2.9802322e-10}
+      rotation: {x: -0.25173098, y: 0.13564026, z: 0.1136827, w: 0.9514776}
+      scale: {x: 1.0519801, y: 0.9724002, z: 0.98057204}
+    - name: Ombro R
+      parentName: Peito
+      position: {x: 0.0004172959, y: 0.004708335, z: 0.0006683289}
+      rotation: {x: -0.13016225, y: 0.028040966, z: -0.7836851, w: 0.60672}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: Biceps R
+      parentName: Ombro R
+      position: {x: -1.2572854e-10, y: 0.0023361228, z: -2.6077032e-10}
+      rotation: {x: -0.10679769, y: -0.07026996, z: -0.11162842, w: -0.9854925}
+      scale: {x: 0.9482068, y: 0.84234565, z: 0.9525397}
+    - name: "Bra\xE7o R"
+      parentName: Biceps R
+      position: {x: -5.2154064e-10, y: 0.0053679324, z: 1.4901161e-10}
+      rotation: {x: 0.010191879, y: -0.003249302, z: -0.0032787821, w: 0.9999374}
+      scale: {x: 0.94307524, y: 0.95575505, z: 0.93169016}
+    - name: "M\xE3o R"
+      parentName: "Bra\xE7o R"
+      position: {x: 7.4505804e-11, y: 0.0043528737, z: 5.9604643e-10}
+      rotation: {x: -0.051458817, y: 0.0022067525, z: 0.02366109, w: 0.9983924}
+      scale: {x: 0.99782413, y: 1.006484, z: 0.9962839}
+    - name: Anelar 1/3 R
+      parentName: "M\xE3o R"
+      position: {x: 0.0002433542, y: 0.0021157858, z: -0.00020218031}
+      rotation: {x: 0.061782345, y: -0.0965691, z: -0.06819023, w: 0.99106383}
+      scale: {x: 1.0327842, y: 0.96384627, z: 1.0032704}
+    - name: Anelar 2/3 R
+      parentName: Anelar 1/3 R
+      position: {x: 6.9849193e-10, y: 0.0006352725, z: 6.705522e-10}
+      rotation: {x: -0.0034624964, y: 0.0036803253, z: -0.021325866, w: 0.99975985}
+      scale: {x: 1.0333958, y: 0.96734047, z: 0.9988263}
+    - name: Anelar 3/3 R
+      parentName: Anelar 2/3 R
+      position: {x: 9.685754e-10, y: 0.00061728415, z: 1.11758706e-10}
+      rotation: {x: -0.07619164, y: -0.04870024, z: -0.26904204, w: 0.9588741}
+      scale: {x: 1.1141723, y: 0.90760446, z: 0.9906521}
+    - name: Indicador 1/3 R
+      parentName: "M\xE3o R"
+      position: {x: 0.00035095788, y: 0.0019684464, z: 0.00062323}
+      rotation: {x: 0.06865536, y: 0.35185373, z: -0.03594415, w: 0.9328416}
+      scale: {x: 1.0042633, y: 0.9584533, z: 1.0388771}
+    - name: Indicador 2/3 R
+      parentName: Indicador 1/3 R
+      position: {x: -1.4901161e-10, y: 0.0006284587, z: 4.4703483e-10}
+      rotation: {x: 0.015118774, y: 0.006218611, z: -0.018599061, w: 0.9996934}
+      scale: {x: 1.0085671, y: 0.97122824, z: 1.0200356}
+    - name: Indicador 3/3 R
+      parentName: Indicador 2/3 R
+      position: {x: -1.4901161e-10, y: 0.0006345838, z: -2.9802322e-10}
+      rotation: {x: -0.033699006, y: -0.031188998, z: 0.025188144, w: 0.99862766}
+      scale: {x: 1.0016242, y: 1.0167725, z: 0.9828224}
+    - name: Meio 1/3 R
+      parentName: "M\xE3o R"
+      position: {x: 0.000060679948, y: 0.0020878734, z: 0.00016016889}
+      rotation: {x: 0.058128662, y: -0.022976432, z: -0.059165277, w: 0.99628943}
+      scale: {x: 1.0339272, y: 0.959274, z: 1.007535}
+    - name: Meio 2/3 R
+      parentName: Meio 1/3 R
+      position: {x: -3.0733643e-10, y: 0.0006441376, z: -4.1211023e-10}
+      rotation: {x: -0.00024277715, y: 0.0043876297, z: -0.021340026, w: 0.99976265}
+      scale: {x: 1.031305, y: 0.96796596, z: 1.000705}
+    - name: Meio 3/3 R
+      parentName: Meio 2/3 R
+      position: {x: 0.0000000011036172, y: 0.000643907, z: 2.0954757e-10}
+      rotation: {x: -0.05270504, y: -0.08274047, z: -0.035574097, w: 0.99454045}
+      scale: {x: 1.0299156, y: 0.989137, z: 0.98125416}
+    - name: Mindinho 1/3 R
+      parentName: "M\xE3o R"
+      position: {x: 0.00027112343, y: 0.0019961589, z: -0.0006285496}
+      rotation: {x: 0.03624057, y: -0.28143257, z: -0.067813985, w: 0.95649546}
+      scale: {x: 1.0459852, y: 0.9582663, z: 0.99865437}
+    - name: Mindinho 2/3 R
+      parentName: Mindinho 1/3 R
+      position: {x: -0.000000001490116, y: 0.0006017026, z: -1.4901161e-10}
+      rotation: {x: -0.012537895, y: 0.005860447, z: -0.017674142, w: 0.99974805}
+      scale: {x: 1.0276735, y: 0.9709694, z: 1.0019015}
+    - name: Mindinho 3/3 R
+      parentName: Mindinho 2/3 R
+      position: {x: -0.0000000011920929, y: 0.00061456097, z: 0}
+      rotation: {x: 0.041000564, y: -0.021458112, z: -0.02322131, w: 0.9986588}
+      scale: {x: 1.0065461, y: 0.9949963, z: 0.99836046}
+    - name: Polegar 1/2 R
+      parentName: "M\xE3o R"
+      position: {x: 0.00048893417, y: 0.0008193734, z: 0.0007229854}
+      rotation: {x: 0.38234165, y: 0.0756342, z: -0.019059751, w: 0.92072314}
+      scale: {x: 1.0088372, y: 0.9640672, z: 1.0282782}
+    - name: Polegar 2/2 R
+      parentName: Polegar 1/2 R
+      position: {x: -1.11758706e-10, y: 0.00076647033, z: 7.45058e-10}
+      rotation: {x: -0.25194755, y: -0.13564225, z: -0.113201894, w: 0.9514773}
+      scale: {x: 1.0439715, y: 1.0280225, z: 0.932334}
+    - name: "Pesco\xE7o"
+      parentName: Peito
+      position: {x: -1.700684e-13, y: 0.0051207487, z: -3.8546943e-13}
+      rotation: {x: 0.18023463, y: -0.0000002345141, z: -0.00000008594254, w: 0.9836237}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: "Cabe\xE7a"
+      parentName: "Pesco\xE7o"
+      position: {x: 9.531931e-14, y: 0.0021481586, z: 1.2922875e-10}
+      rotation: {x: 0.08597481, y: 0.000000118767815, z: -0.00000005124495, w: 0.9962973}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: "Cabe\xE7a.001"
+      parentName: "Cabe\xE7a"
+      position: {x: 2.344791e-15, y: 0.004041664, z: -1.4978255e-10}
+      rotation: {x: -0.30327904, y: 1.4210855e-14, z: 0.00000014461463, w: 0.95290184}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: Perna L
+      parentName: Barriga
+      position: {x: -0.0014976087, y: 0.00009466116, z: 0.00039891052}
+      rotation: {x: -0.7008063, y: 0.08817081, z: 0.70787954, w: -0.0017282174}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Canela L
+      parentName: Perna L
+      position: {x: -2.933666e-10, y: 0.0076657757, z: -2.0489097e-10}
+      rotation: {x: 0.02354525, y: 0.00015926175, z: 0.16695668, w: -0.9856831}
+      scale: {x: 0.9999998, y: 0.9999996, z: 0.9999997}
+    - name: Calcanhar L
+      parentName: Canela L
+      position: {x: 9.313225e-11, y: 0.008919148, z: 2.7939676e-10}
+      rotation: {x: 0.0039956383, y: 0.008406242, z: -0.69560474, w: -0.7183645}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: "P\xE9 L"
+      parentName: Calcanhar L
+      position: {x: -2.2351741e-10, y: 0.0030295681, z: 4.8894434e-11}
+      rotation: {x: -0.014316875, y: 0.00000039581215, z: -0.17827828, w: -0.98387593}
+      scale: {x: 0.99999964, y: 0.9999997, z: 1}
+    - name: Perna R
+      parentName: Barriga
+      position: {x: 0.001497609, y: 0.00009466116, z: 0.00039890961}
+      rotation: {x: 0.7008065, y: 0.08817041, z: 0.70787936, w: 0.0017287033}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1.0000001}
+    - name: Canela R
+      parentName: Perna R
+      position: {x: -8.381903e-11, y: 0.007665775, z: -2.0489097e-10}
+      rotation: {x: -0.02354423, y: 0.00015934277, z: 0.16695675, w: 0.9856831}
+      scale: {x: 1.0000005, y: 1.0000012, z: 1.0000007}
+    - name: Calcanhar R
+      parentName: Canela R
+      position: {x: -1.9557773e-10, y: 0.008919147, z: -1.5832484e-10}
+      rotation: {x: -0.003995701, y: 0.008406132, z: -0.69560456, w: 0.7183646}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1}
+    - name: "P\xE9 R"
+      parentName: Calcanhar R
+      position: {x: -3.7252902e-11, y: 0.0030295684, z: -7.357448e-10}
+      rotation: {x: 0.014316916, y: 0.00000059464946, z: -0.17827848, w: 0.98387593}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.99999976}
+    - name: Milo.002
+      parentName: Milo_11(Clone)
+      position: {x: 0.03850299, y: 1.7467484, z: -0.021825314}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

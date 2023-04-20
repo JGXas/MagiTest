@@ -1,0 +1,300 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+//using UnityEngine.UI;
+using TMPro;
+
+public class DialogueSystem : MonoBehaviour
+{
+    public DialogueController dialogueController;
+    public DialogueBox dialogueBox;
+    
+    public Dialogue[] dialogues;
+    public float phraseSpeed = 0.015f;
+    public Sprite photo;
+    public string title;
+    public bool random = false;
+
+    [Header("Optional")]
+    public Action actionWhenStart;
+    public Action actionWhenFinish;
+
+    [HideInInspector]
+    public int currentDialogueIndex = 0;
+    [HideInInspector]
+    public int currentPhraseIndex = 0;
+    [HideInInspector]
+    public bool active = false;
+    [HideInInspector]
+    public bool isInteracting;
+    [HideInInspector]
+    public bool isInRange;
+
+
+    private IEnumerator currentCoroutine;
+    private string currentText = "";
+    private bool clicable = true;
+
+    public void startDialogue()
+    {
+        if (!active && !dialogueController.dialogueInCourse)
+        {
+            isInteracting = true;
+            active = true;
+            dialogueController.dialogueInCourse = true;
+            dialogueBox.currentDialogueSystem = this;
+            int diagIndex = random ? Random.Range(0, dialogues.Length) : 0;
+            currentDialogueIndex = diagIndex;
+            currentPhraseIndex = 0;
+            buildDialogueBox(dialogueBox, dialogues[diagIndex], 0);
+            dialogues[diagIndex].playSound();
+            dialogueBox.playDialogueBoxSound();
+            dialogueBox.showUpAnimation();
+            
+            if (actionWhenStart)
+            {
+                actionWhenStart.execute();
+            }
+        }
+    }
+
+    public void endDialogue()
+    {
+        active = false;
+        dialogueController.dialogueInCourse = false;
+        dialogueBox.dialogueWithOptions.SetActive(false);
+        dialogueBox.dialogueNoOptions.SetActive(false);
+        disableOptions(dialogueBox);
+        dialogueBox.photo.enabled = false;
+        dialogueBox.titleNoPhoto.enabled = false;
+        dialogueBox.titlePhoto.enabled = false;
+        dialogueBox.phraseNoPhoto.enabled = false;
+        dialogueBox.phrasePhoto.enabled = false;
+        
+        if (dialogues[currentDialogueIndex].lastOne && actionWhenFinish)
+        {
+            actionWhenFinish.execute();
+        }
+    }
+
+    public void nextPhrase()
+    {
+        if(dialogues[currentDialogueIndex].phrases.Length > (currentPhraseIndex + 1))
+        {
+            Debug.Log("next phrase");
+            currentPhraseIndex++;
+            buildDialogueBox(dialogueBox, dialogues[currentDialogueIndex], currentPhraseIndex);
+        }
+        else
+        {
+            if (dialogues[currentDialogueIndex].lastOne || dialogues.Length <= currentDialogueIndex)
+            {
+                endDialogue();
+            }
+            else
+            {
+                nextDialogue();
+            }
+        }
+    }
+
+    IEnumerator animatePhrase(TMP_Text textContainer, string text, float speed)
+    {
+        clicable = false;
+        currentText = "";
+        if (dialogues[currentDialogueIndex].playTypingSound)
+        {
+            dialogueBox.playTypeSound();
+        }
+        for (int i = 0; i < text.Length; i++)
+        {
+            currentText = text.Substring(0, i+1);
+            textContainer.text = currentText;
+            
+            yield return new WaitForSeconds(speed);
+        }
+        if (dialogues[currentDialogueIndex].playTypingSound)
+        {
+            dialogueBox.stopTypeSound();
+        }
+        clicable = true;
+    }
+
+    public void nextDialogue()
+    {
+        if (Input.GetKeyDown("Q"))
+        {
+            if (dialogues[currentDialogueIndex].phrases.Length > (currentPhraseIndex + 1))
+            {
+                Debug.Log("next phrase");
+                currentPhraseIndex++;
+                buildDialogueBox(dialogueBox, dialogues[currentDialogueIndex], currentPhraseIndex);
+            }
+            else
+            {
+                if (dialogues[currentDialogueIndex].lastOne || dialogues.Length <= currentDialogueIndex)
+                {
+                    endDialogue();
+                }
+                else
+                {
+                    nextDialogue();
+                }
+            }
+        }
+    }
+
+    public void callSpecificDialogue(Dialogue dialogue)
+    {
+        active = true;
+        dialogueController.dialogueInCourse = true;
+        int diagIndex = 0;
+        for (int i = 0; i < dialogues.Length; i++)
+        {
+            if (dialogues[i] == dialogue)
+            {
+                diagIndex = i;
+            }
+        }
+        currentPhraseIndex = 0;
+        currentDialogueIndex = diagIndex;
+        buildDialogueBox(dialogueBox, dialogues[currentDialogueIndex], currentPhraseIndex);
+        dialogues[currentDialogueIndex].playSound();
+        dialogueBox.playDialogueBoxSound();
+        dialogueBox.showUpAnimation();
+    }
+
+    public void buildDialogueBox(DialogueBox dialogueBox, Dialogue dialogue, int phraseIndex = 0)
+    {
+        active = true;
+        dialogueController.dialogueInCourse = true;
+        disableOptions(dialogueBox);
+        if (dialogue.options.Length > 0)
+        {
+            dialogueBox.dialogueWithOptions.SetActive(true);
+            dialogueBox.dialogueNoOptions.SetActive(false);
+            if(dialogue.options.Length == 1)
+            {
+                dialogueBox.singleOptionBox.SetActive(true);
+                dialogueBox.singleOptionText.text = dialogue.options[0].phrase;  
+            }
+            else if(dialogue.options.Length == 2)
+            {
+                dialogueBox.option1CenterBox.SetActive(true);
+                dialogueBox.option2CenterBox.SetActive(true);
+                dialogueBox.option1CenterText.text = dialogue.options[0].phrase;
+                dialogueBox.option2CenterText.text = dialogue.options[1].phrase;
+            }
+            else
+            {
+                dialogueBox.option1Box.SetActive(true);
+                dialogueBox.option2Box.SetActive(true);
+                dialogueBox.option3Box.SetActive(true);
+                dialogueBox.option1Text.text = dialogue.options[0].phrase;               
+                dialogueBox.option2Text.text = dialogue.options[1].phrase;
+                dialogueBox.option3Text.text = dialogue.options[2].phrase;
+                if (dialogue.options.Length > 3)
+                {
+                    dialogueBox.option4Box.SetActive(true);
+                    dialogueBox.option4Text.text = dialogue.options[3].phrase;
+                }
+            }
+        }
+        else
+        {
+            dialogueBox.dialogueWithOptions.SetActive(false);
+            dialogueBox.dialogueNoOptions.SetActive(true);
+        }
+
+        if (dialogue.inheritStyle)
+        {
+            assignPhotoAndTexts(dialogueBox, this.photo, this.title, dialogue.phrases[phraseIndex]);
+        }
+        else
+        {
+            assignPhotoAndTexts(dialogueBox, dialogue.photo, dialogue.title, dialogue.phrases[phraseIndex]);
+        }
+    }
+
+    public void assignPhotoAndTexts(DialogueBox diagBox, Sprite photo, string title, string phrase)
+    {
+        if (currentCoroutine != null)
+        {
+            StopCoroutine(currentCoroutine);
+        }
+        if (photo)
+        {
+            diagBox.photo.sprite = photo;
+            diagBox.photo.enabled = true;
+            diagBox.titlePhoto.enabled = true;
+            diagBox.titleNoPhoto.enabled = false;
+            diagBox.titlePhoto.text = title;
+            diagBox.phrasePhoto.enabled = true;
+            diagBox.phraseNoPhoto.enabled = false;
+            if (dialogues[currentDialogueIndex].animatePhrases)
+            {
+                currentCoroutine = animatePhrase(diagBox.phrasePhoto, phrase, phraseSpeed);
+                StartCoroutine(currentCoroutine);
+            }
+            else
+            {
+                diagBox.phrasePhoto.text = phrase;
+            }
+        }
+        else
+        {
+            diagBox.photo.enabled = false;
+            diagBox.titlePhoto.enabled = false;
+            diagBox.titleNoPhoto.enabled = true;
+            diagBox.titleNoPhoto.text = title;
+            diagBox.phrasePhoto.enabled = false;
+            diagBox.phraseNoPhoto.enabled = true;
+            if (dialogues[currentDialogueIndex].animatePhrases)
+            {
+                currentCoroutine = animatePhrase(diagBox.phraseNoPhoto, phrase, phraseSpeed);
+                StartCoroutine(currentCoroutine);
+            }
+            else
+            {
+                diagBox.phraseNoPhoto.text = phrase;
+            }
+        }
+    }
+
+    public void disableOptions(DialogueBox diagBox)
+    {
+        diagBox.option1Box.SetActive(false);
+        diagBox.option2Box.SetActive(false);
+        diagBox.option3Box.SetActive(false);
+        diagBox.option4Box.SetActive(false);
+        diagBox.option1CenterBox.SetActive(false);
+        diagBox.option2CenterBox.SetActive(false);
+        diagBox.singleOptionBox.SetActive(false);
+    }
+
+    public void executeOption(int optionIndex)
+    {
+        if (dialogues[currentDialogueIndex].options[optionIndex].endDialog)
+        {
+            endDialogue();
+            if (actionWhenFinish)
+            {
+                actionWhenFinish.execute();
+            }
+        }
+        else
+        {
+            if (dialogues[currentDialogueIndex].options[optionIndex].executeAction)
+            {
+                endDialogue();
+                active = true;
+                dialogueController.dialogueInCourse = true;
+                dialogues[currentDialogueIndex].options[optionIndex].action.execute();
+            }
+            if (dialogues[currentDialogueIndex].options[optionIndex].openDialogue)
+            {
+                callSpecificDialogue(dialogues[currentDialogueIndex].options[optionIndex].dialogue);
+            }
+        }
+    }
+}
